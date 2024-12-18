@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Feito pelo rela22",
-  description: "Feito pelo rela22, se remover os créditos é gay",
+  title: "RyN Studios",
+  description: "RyN Taxados",
 };
 
 export default function RootLayout({

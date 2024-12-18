@@ -55,20 +55,18 @@ export default function Home() {
                 Juntos podemos criar um ambiente mais seguro.
               </p>
               <div className="flex gap-4 justify-center">
-                <Link
-                  href="/scammers"
-                  className="bg-white text-black px-8 py-3 rounded-full font-medium hover:bg-gray-100 transition-colors inline-flex items-center gap-2 group"
-                >
-                  Ver Lista de Scammers
-                  <span className="group-hover:translate-x-0.5 transition-transform">
-                    →
-                  </span>
+                <Link href="/scammers" passHref>
+                  <a className="bg-white text-black px-8 py-3 rounded-full font-medium hover:bg-gray-100 transition-colors inline-flex items-center gap-2 group">
+                    Ver Lista de Scammers
+                    <span className="group-hover:translate-x-0.5 transition-transform">
+                      →
+                    </span>
+                  </a>
                 </Link>
-                <Link
-                  href="/about"
-                  className="bg-white/5 text-white px-8 py-3 rounded-full font-medium hover:bg-white/10 transition-colors border border-white/10"
-                >
-                  Sobre nós
+                <Link href="/about" passHref>
+                  <a className="bg-white/5 text-white px-8 py-3 rounded-full font-medium hover:bg-white/10 transition-colors border border-white/10">
+                    Sobre nós
+                  </a>
                 </Link>
               </div>
             </div>
@@ -122,17 +120,17 @@ export default function Home() {
             </div>
             <div className="flex gap-6">
               <a href="#" className="text-gray-400 hover:text-white transition-colors">
-                Twitter
+              <a href="https://github.com/rela22" className="hover:text-white transition-colors">Twitter</a>
               </a>
               <a href="#" className="text-gray-400 hover:text-white transition-colors">
-                Discord
+              <a href="https://github.com/rela22" className="hover:text-white transition-colors">Discord</a>
               </a>
               <a href="#" className="text-gray-400 hover:text-white transition-colors">
-                GitHub
+                <a href="https://github.com/rela22" className="hover:text-white transition-colors">Github</a>
               </a>
             </div>
             <div className="text-gray-500 text-sm font-mono">
-              Credits: <a href="https://github.com/rela22" className="hover:text-white transition-colors">rela22</a>
+              Credits: <a href="https://github.com/rela22" className="hover:text-white transition-colors">Uhum</a>
             </div>
           </div>
         </div>

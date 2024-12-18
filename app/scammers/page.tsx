@@ -172,17 +172,17 @@ export default function Scammers() {
             </div>
             <div className="flex gap-6">
               <a href="#" className="text-gray-400 hover:text-white transition-colors">
-                Twitter
+              <a href="https://github.com/rela22" className="hover:text-white transition-colors">Twitter</a>
               </a>
               <a href="#" className="text-gray-400 hover:text-white transition-colors">
-                Discord
+              <a href="https://github.com/rela22" className="hover:text-white transition-colors">Discord</a>
               </a>
               <a href="#" className="text-gray-400 hover:text-white transition-colors">
-                GitHub
+                <a href="https://github.com/rela22" className="hover:text-white transition-colors">Github</a>
               </a>
             </div>
             <div className="text-gray-500 text-sm font-mono">
-              Credits: <a href="https://github.com/rela22" className="hover:text-white transition-colors">rela22</a>
+              Credits: <a href="https://github.com/rela22" className="hover:text-white transition-colors">Uhum</a>
             </div>
           </div>
         </div>
